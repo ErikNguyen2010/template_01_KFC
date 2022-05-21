@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+.header__title{
+    background-color: red;
+    color: white;
+    text-align: left;
+}
+.nav__link{
+    font-size: 20px;
+    display: block;
+}
+.container__content{
+    background-color: brown;
+}
+.container-content__heading{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+.container-content__detail{
+    color: white;
+    font-size: 30px;
+    text-align: justify;
+}
+.container-content__item{
+    font-size: 25px;
+    color: white;
+}
+.table__heading{
+    text-align: center;
+}
+.table__content{
+    width: 900px;
+    height: 800px;
+}
+td{
+    padding: 0;
+    margin: 0;
+}
+.td-img{
+    padding: 1px;
+}
+@media (prefers-color-scheme: dark) {
+    body {
+      background-color: black;
+      color: white;
+    }
+  }
+  /* Style rules for light mode */
+  @media (prefers-color-scheme: light) {
+    body {
+      background-color: white;
+      color: black;
+    }
+  }
